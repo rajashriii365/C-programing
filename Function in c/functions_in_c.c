@@ -9,6 +9,7 @@ double div();
 
 // main function/ function calling
 int main(){
+	printf("My Basic Calculator :\n ");
 	addition();
 	subtration();
 	multi();
@@ -69,6 +70,4 @@ double div()
 	scanf("%lf", &b);
 	
 	printf("a/b : %lf\n", a/b);
-	double result = b / a;
-	printf("b/a : %lf\n", result);
 }
